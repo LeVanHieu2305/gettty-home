@@ -1,0 +1,17 @@
+.header {
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  color: black;
+  font-weight: bold;
+
+  &-logo {
+    .link {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
